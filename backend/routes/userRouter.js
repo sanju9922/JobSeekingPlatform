@@ -8,4 +8,4 @@ router.post("/register",register)
 router.post("/login",login)
 router.get("/logout",isAuthorised,logout)
 router.get("/getuser",isAuthorised,getUser)
-export default router ;
+export default router ; 
